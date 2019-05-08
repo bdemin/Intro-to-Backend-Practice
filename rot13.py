@@ -1,4 +1,9 @@
 def rot13(string):
+    # rot13 takes a string as input and returns the same
+    # string with each character advanced by 13
+    # rot13('hello') -> 'uryyb'
+    # rot13('HELLO') -> 'URYYB'
+
     new_str = ''
     for char in string:
         temp = ord(char)
@@ -14,8 +19,8 @@ def rot13(string):
     return new_str
 
 
-print(rot13('abc'))
-print(rot13('ABC'))
-print(rot13('xyz'))
-print(rot13('WXY'))
-print(rot13('hello'))
+# print(rot13('abc'))
+# print(rot13('ABC'))
+# print(rot13('xyz'))
+# print(rot13('WXY'))
+# print(rot13('hello'))
